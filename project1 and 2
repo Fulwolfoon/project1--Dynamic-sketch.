@@ -1,0 +1,15 @@
+///Justin Curcio///
+void setup()
+{
+size(500, 500);
+background( 100, 150, 200);
+}
+///scene///
+void draw()
+{
+fill(100,255,150);
+rect(100,100,120,100);            ///House///
+triangle(161,35,250,100,70,100);  ///Roof///
+fill(100,255,150);
+rect(0,200,500,height);
+}
