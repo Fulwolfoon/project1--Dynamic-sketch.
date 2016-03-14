@@ -1,0 +1,24 @@
+///Justin Curcio///
+void setup()
+{
+size(500, 500);
+background( 100, 150, 200);
+}
+///scene///
+void draw()
+{
+float xrect,yrect;
+fill(100,255,150);
+rect(100,100,120,100);            ///House///
+triangle(161,35,250,100,70,100);  ///Roof///
+fill(100,255,150);
+rect(135,150,50,50);              ///Door///
+rect(0,200,500,height);           ///Ground///
+rect(350,120,50,80);              ///Tree///
+ellipse(375,90,100,100);
+}
+
+///James///
+{
+ellipse(50,50,50,50);
+}
